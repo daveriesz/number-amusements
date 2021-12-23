@@ -22,3 +22,5 @@ objclean:
 execlean:
 	$(RM) -f $(PROGRAM)
 
+pngclean:
+	$(RM) -f prime-spiral.png
