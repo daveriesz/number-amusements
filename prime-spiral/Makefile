@@ -14,7 +14,7 @@ $(PROGRAM): $(COBJECTS)
 run: $(PROGRAM)
 	./$<
 
-clean: objclean execlean
+clean: objclean execlean pngclean
 
 objclean:
 	$(RM) -f $(COBJECTS)
